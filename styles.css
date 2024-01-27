@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.nav-conatiner {
+    position: relative;
+    z-index: 1;
+}
+
+.logo>h2 {
+    color: #3B3B3B;
+    font-size: 35.59px;
+}
+
+.logo-right {
+    color: #FCC822;
+    font-size: 26.59px;
+}
+
+#user {
+    width: 14.514px;
+    height: 19.159px;
+}
+
+#Tarun {
+    width: 40.059px;
+    height: 20.9px;
+    color: #FCC822;
+    font-size: 13.934px;
+}
+
+#down-arr {
+    width: 6.968px;
+    height: 5.225px;
+}
+
+.nav-user {
+    cursor: pointer;
+}
+
+/* main section  */
+main {
+    display: flex;
+    height: 90.1vh;
+    position: relative;
+    z-index: 0;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-top: 10vh;
+    gap: 30px;
+}
+
+.left>h1 {
+    color: #333;
+    font-family: Roboto;
+    font-size: 37.156px;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 70px;
+
+}
+
+.start-btn {
+    width: 15vw;
+    height: 10vh;
+    color: #FFF;
+    background-color: #FCC822;
+    font-size: 20.934px;
+    font-weight: 500;
+    border: none;
+}
+
+.para-container {
+    width: 400.837px;
+    border-left: 2px solid #333;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.para-container>p {
+    /* width: 400.837px; */
+    color: #828282;
+    font-family: Roboto;
+    font-size: 20.934px;
+}
+
+.start-btn:hover {
+    opacity: 0.8;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.hero-img {
+    position: relative;
+    width: 38vw;
+    height: 95vh;
+    left: 5vw;
+}
+
+.categories {
+    height: 88vh;
+    width: 100vw;
+    z-index: 2;
+    /* background-color: gray; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.castegories-pop {
+    height: 92%;
+    width: 94%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.castegories-box {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(3, 80px);
+    overflow: hidden;
+
+
+}
+
+.tag-badge {
+    width: 140px;
+    height: 35px;
+    background: #D1D1D1;
+    padding: 5px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20.769px;
+    font-weight: 500;
+    line-height: 104%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.tag-badge-active {
+    background-color: #FCC822;
+}
+
+.tag-badge-spn {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 35px;
+    position: relative;
+    left: 3.5%;
+}
+
+.tag-badge:hover {
+    background-color: #FCC822;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+#Start-Quiz {
+    border: none;
+    width: 135.597px;
+    height: 42.156px;
+    background: linear-gradient(95deg, #FCC822 0%, #FFCD2E 100%);
+    box-shadow: 0px 10.45px 23.223px -6.967px #FBE18F;
+    color: #FFF;
+    font-size: 16.934px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.qouestion-box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20vh;
+    /* position: fixed; */
+    /* z-index: 10; */
+}
+
+.qouestion-box>h2 {
+    width: 100%;
+    background-color: #FCC822;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    line-height: 140%;
+    /* 33.6px */
+    padding: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.options>button {
+    width: 170.065px;
+    height: 90.183px;
+    font-size: 20.9px;
+    font-weight: 600;
+    line-height: 85.6%;
+    /* 17.891px */
+    border: none;
+}
+
+.options>button:hover {
+    background-color: #FCC822;
+    color: white;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 20px;
+}
+
+.bottom>button {
+    display: inline-flex;
+    padding: 8.128px 15.095px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.806px;
+   border: none;
+}
+
+.bottom-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.bottom-right>button{
+    display: inline-flex;
+    padding: 8.128px 15.095px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.806px;
+   border: none;   
+}
+.skip{
+    background-color: white;
+    color: #FCC822;
+}
